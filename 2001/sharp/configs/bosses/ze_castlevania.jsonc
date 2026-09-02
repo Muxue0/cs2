@@ -14,7 +14,7 @@
   // backup     (string)   -> 后备计数器 (MathCounter only)
   // mass       (int)      -> 后备算法参数 (MathCounter only)
   // counter    (string)   -> 血条计数器 (MathCounter only)
-  // increase   (bool)     -> iterator是OnHitMax模式 (MathCounter only)
+  // increase   (bool)     -> iterator是OnHitMax模式 (MathCounter only) 
   // reverse    (bool)     -> counter是OnHitMax模式 (MathCounter only)
   // [Npc (Monsters)]
   // display    (string)   -> 显示的名称
@@ -23,60 +23,70 @@
 {
   "Breakables": [
     {
-      "target": "X69XTurtleBossHP1",
-      "display": "大海龟(1/2)"
+      "target": "boss_swampmonster_model",
+      "display": "海怪"
     },
     {
-      "target": "X69XTurtleBosshp2",
-      "display": "大海龟(2/2)"
+      "target": "boss_spiderqueen_model",
+      "display": "蜘蛛女王"
     },
     {
-      "target": "Ord_lvl_01_boss_break",
-      "display": "地鼠"
+      "target": "boss_ogre_model",
+      "display": "食人魔"
     },
     {
-      "target": "Ord_lvl_02_boss_break",
-      "display": "地鼠一家整整齐齐"
+      "target": "boss_slogra_model",
+      "display": "Slogra"
     },
     {
-      "target": "X69XOrd_main_mid_diglett_break",
-      "display": "中型地鼠"
+      "target": "boss_gaibon_model",
+      "display": "Gaibon"
     },
     {
-      "target": "X69XOrd_main_large_diglett_break",
-      "display": "大型地鼠"
-    },
-    {
-      "target": "seal",
-      "display": "封印"
-    },
-    {
-      "target": "dd_hp",
-      "hitbox": "dd_model",
-      "display": "地豆大雕"
-    },
-    {
-      "target": "i_npc_hp_1",
-      "hitbox": "fb_body",
-      "display": "胎儿"
+      "target": "boss_snowtitan_model",
+      "display": "冰雪巨人"
     }
   ],
   "Monsters": [
     {
-      "identity": "1199",
-      "display": "触手怪"
+      "identity": "3111",
+      "display": "npc"
     },
     {
-      "identity": "8141",
-      "display": "婴儿脸"
+      "identity": "3112",
+      "display": "npc"
     },
     {
-      "identity": "8123",
-      "display": "鬼脸"
+      "identity": "3113",
+      "display": "npc"
     },
     {
-      "identity": "3429",
-      "display": "史莱克"
+      "identity": "3105",
+      "display": "npc"
+    },
+    {
+      "identity": "3109",
+      "display": "npc"
+    },
+    {
+      "identity": "3110",
+      "display": "npc"
+    },
+    {
+      "identity": "3106",
+      "display": "npc"
+    },
+    {
+      "identity": "3107",
+      "display": "npc"
+    },
+    {
+      "identity": "3108",
+      "display": "npc"
+    },
+    {
+      "identity": "631",
+      "display": "npc"
     }
   ]
 }
